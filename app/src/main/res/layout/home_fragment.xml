@@ -55,7 +55,7 @@
                     android:drawableEnd="@drawable/ic_arrow"
                     android:gravity="center"
                     android:paddingEnd="@dimen/_10sdp"
-                    android:text="Add New Item"
+                    android:text="@string/add_new_item"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_15sdp"
                     tools:ignore="RtlCompat" />
@@ -100,7 +100,7 @@
                     android:drawableEnd="@drawable/ic_arrow"
 
                     android:gravity="center"
-                    android:text="Search Item"
+                    android:text="@string/search_item"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_15sdp"
                     tools:ignore="RtlCompat" />

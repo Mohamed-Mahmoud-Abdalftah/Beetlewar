@@ -14,4 +14,7 @@
     <string name="notifications">الاشعارات </string>
     <string name="settings">الاعدادات</string>
     <string name="log_out">تسجيل الخروج</string>
+    <string name="search_item">البحث </string>
+    <string name="add_new_item">الاضافه</string>
+    <string name="products">المنتجات</string>
 </resources>
