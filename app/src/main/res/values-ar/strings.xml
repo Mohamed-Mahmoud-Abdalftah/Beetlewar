@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Beetleware Task</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="sold_item">العنصر المباع</string>
+    <string name="customer">العميل </string>
+    <string name="sales">المبيعات </string>
+    <string name="offer">عرض</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="Ok">حسنا</string>
+    <string name="notifications">الاشعارات </string>
+    <string name="settings">الاعدادات</string>
+    <string name="log_out">تسجيل الخروج</string>
+</resources>

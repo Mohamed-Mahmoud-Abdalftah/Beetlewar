@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ScrollingActivity">
+        <include layout="@layout/home_content" />
+
+<com.etebarian.meowbottomnavigation.MeowBottomNavigation
+    android:id="@+id/bottomNavigation"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_gravity="bottom"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/nav_host_fragment"
+    app:layout_constraintVertical_bias="1.0"
+    app:mbn_backgroundBottomColor="#ffffff"
+    app:mbn_circleColor="@color/colorAccent"
+    app:mbn_countBackgroundColor="@color/colorAccent"
+    app:mbn_countTextColor="@color/colorAccent"
+    app:mbn_rippleColor="#2f424242"
+    app:mbn_selectedIconColor="#ffffff"
+    app:mbn_shadowColor="@color/colorAccent" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>
